@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Permanent+Marker&family=Roboto+Condensed&family=Rubik&display=swap');
+
+.profile-img:hover {
+    transform: scale(1.2);
+}
+
+.profile-img {
+
+    margin: 1px;
+    transition: .5s ease-in-out;
+    margin-top: -119px;
+}
+
+.home {
+    width: 100%;
+    height: 84vh;
+    /* background-color: azure; */
+    text-align: center;
+    padding-top: 35vh;
+
+}
+
+.font1 {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+td {
+    text-decoration: none;
+    text-underline-offset: none;
+}
+
+
+
+.icons-container {
+    justify-content: space-evenly;
+    padding: 1rem 5vw 0 5vw;
+    text-align: center;
+    font-weight: 700;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* display: flex; */
+    flex-direction: row;
+}
+
+/* .skill-image {
+    width: 10px;
+    height: 10px;
+} */
+.icons-container>div img {
+    width: 50%;
+    margin-bottom: 1rem;
+    max-width: 25%;
+
+}
+
+.nav>li>a>img,
+img {
+
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+}
+
+img {
+    border: 0;
+}
+
+body {
+
+    font-family: 'Roboto Condensed',
+        sans-serif;
+
+}
+
+
+.card-hover .card:hover {
+    border: 3px solid rgba(255, 254, 252, 0);
+}
